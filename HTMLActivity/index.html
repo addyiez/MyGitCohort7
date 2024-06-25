@@ -1,0 +1,67 @@
+<!--HTML Structure:
+
+Design the structure of your employee management system with the following sections:
+Header: Include the name/Accenture logo and navigation links (e.g., Home,
+Add 4 employees,View Employees in next page).
+Employee Form: Create a form for adding employee records, 
+including fields for name, email, department, role, etc.
+Employee List: Display a table or list of employees with 
+basic information such as name, email, department,role -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+       <center>
+        <div class="logo">
+            <img src ="accenture_logo.png" alt="Accenture Logo">
+           <h1> Accenture Employee Management System </h1> 
+        </div>
+    </center>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Add Employee</a></li>
+                <li><a href="#">View Employees</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Employee Form Section -->
+    <section id="employeeForm">
+        <h2>Add Employee</h2>
+        <form id="addEmployeeForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="department">Department:</label>
+            <input type="text" id="department" name="department" required>
+
+            <label for="role">Role:</label>
+            <input type="text" id="role" name="role" required>
+
+            <button type="submit">Add Employee</button>
+        </form>
+    </section>
+
+    <!-- Employee List Section -->
+    <section id="employeeList">
+        <h2>Employee List</h2>
+        <ul id="employees">
+            <!-- Employee list items will be dynamically generated here -->
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

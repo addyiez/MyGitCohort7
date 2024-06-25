@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.acc.lkm.empentity&apos; to &apos;com.acc.lkm.EmpEntity&apos;&#x0D;&#x0A;- Original project: &apos;JPADemo&apos;&#x0D;&#x0A;- Original element: &apos;JPADemo/src/com.acc.lkm.empentity&apos;&#x0D;&#x0A;- Renamed element: &apos;JPADemo/src/com.acc.lkm.EmpEntity&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.acc.lkm.empentity&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.acc.lkm.empentity" name="com.acc.lkm.EmpEntity" qualified="false" references="true" stamp="1717389044364" textual="false" version="1.0"/>
+</session>

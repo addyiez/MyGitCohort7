@@ -1,0 +1,9 @@
+
+csquid:S1905"1Remove this unnecessary cast to "EmployeeSalary".(ŸøÎúÿÿÿÿHRMINORZ
+CODE_SMELL
+|squid:S00116"NRename this field "EID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™òÍóHˆRMINORZ
+CODE_SMELL
+csquid:S1905"1Remove this unnecessary cast to "EmployeeSalary".(²¸Ï×ûÿÿÿÿHRMINORZ
+CODE_SMELL
+„squid:S00116"QRename this field "Salary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô«İüÿÿÿÿH‰RMINORZ
+CODE_SMELL

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:context="http://www.springframework.org/schema/context"
+xmlns:mvc="http://www.springframework.org/schema/mvc"
+xmlns:tx="http://www.springframework.org/schema/tx"
+xmlns:aop="http://www.springframework.org/schema/aop"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-3.0.xsd
+http://www.springframework.org/schema/aop 
+http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+http://www.springframework.org/schema/mvc
+http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+
+ <bean id="eDog" class="com.acc.spring.Dog">
+  <property name="name" value="puppy"/>
+  <property name="breed" value="pug"/>
+ </bean>
+ 
+  <bean id="p1" class="com.acc.spring.Project">
+     <property name="pid" value="1234"/>
+     <property name="name" value="ElectronicsStore"/>
+  </bean>
+  
+  <bean id="p2" class="com.acc.spring.Project">
+     <property name="pid" value="3456"/>
+     <property name="name" value="ApparalStore"/>
+  </bean>
+  
+  
+
+ <bean id="employee" class="com.acc.spring.Employee">
+  
+  <!-- setter injection 
+  <property name="eid" value="100"/> 
+  <property name="name" value="Rama"/>
+  <property name="salary" value="55555.55"/>
+  -->
+  
+  <!-- constructor injection  
+  <constructor-arg index="1">
+   <value>Rama</value>
+  </constructor-arg>
+  <constructor-arg index="0">
+   <value>100</value>
+  </constructor-arg>
+  <constructor-arg index="2">
+   <value>55555.55</value>
+  </constructor-arg>--> 
+  
+  <constructor-arg type="java.lang.String">
+   <value>Rama</value>
+  </constructor-arg>
+  <constructor-arg type="int">
+   <value>100</value>
+  </constructor-arg>
+  <constructor-arg type="double">
+   <value>55555.55</value>
+  </constructor-arg>
+  
+  <!-- Bean Wiring -->
+  <property name="eDog" ref="eDog"/>
+  
+  <!-- Collection Injection - List -->
+  <property name="languages">
+   <list>
+    <value>Kannada</value>
+    <value>Hindi</value>
+    <value>English</value>
+   </list>
+  </property>
+  
+  <!-- Collection Injection - Set -->
+  <property name="projects">
+   <set>
+    <ref bean="p1"/>
+    <ref bean="p2"/>
+   </set>
+  </property>
+  
+ </bean>
+
+</beans>

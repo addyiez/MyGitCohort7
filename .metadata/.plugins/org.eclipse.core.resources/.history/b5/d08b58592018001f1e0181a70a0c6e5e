@@ -1,0 +1,99 @@
+package com.acc.lkm.LinkedList;
+import java.util.LinkedList;
+import java.util.Scanner;
+
+	public class CustomerManagement {
+	    private LinkedList<Customer> customerList;
+	    private Scanner scanner;
+
+	    public CustomerManagement() {
+	        customerList = new LinkedList<>();
+	        scanner = new Scanner(System.in);
+	    }
+
+	    public void addCustomer() {
+	        System.out.println("Enter customer details:");
+	        System.out.print("Customer ID: ");
+	        int id = scanner.nextInt();
+	        scanner.nextLine(); // Consume newline
+	        System.out.print("Name: ");
+	        String name = scanner.nextLine();
+	        System.out.print("Product: ");
+	        String product = scanner.nextLine();
+	        System.out.print("Price: ");
+	        double price = scanner.nextDouble();
+
+	        Customer customer = new Customer(id, name, product, price);
+	        customerList.add(customer);
+	        System.out.println("Customer added successfully!");
+	    }
+
+	    public void displayCustomers() {
+	        if (customerList.isEmpty()) {
+	            System.out.println("No customers available.");
+	        } else {
+	            System.out.println("List of customers:");
+	            for (Customer customer : customerList) {
+	                System.out.println(customer);
+	            }
+	        }
+	    }
+
+	    public static void main(String[] args) {
+	        CustomerManagement customerManagement = new CustomerManagement();
+	        Scanner scanner = new Scanner(System.in);
+	        int choice;
+
+	        do {
+	            System.out.println("\nMenu:");
+	            System.out.println("1. Add Customer");
+	            System.out.println("2. Display Customers");
+	            System.out.println("3. Exit");
+	            System.out.print("Enter your choice: ");
+	            choice = scanner.nextInt();
+
+	            switch (choice) {
+	                case 1:
+	                    customerManagement.addCustomer();
+	                    break;
+	                case 2:
+	                    customerManagement.displayCustomers();
+	                    break;
+	                case 3:
+	                    System.out.println("Exiting...");
+	                    break;
+	                default:
+	                    System.out.println("Invalid choice. Please enter again.");
+	            }
+	        } while (choice != 3);
+
+	        scanner.close();
+	    }
+	}
+
+	class Customer {
+	    private int id;
+	    private String name;
+	    private String product;
+	    private double price;
+
+	    public Customer(int id, String name, String product, double price) {
+	        this.id = id;
+	        this.name = name;
+	        this.product = product;
+	        this.price = price;
+	    }
+
+	    @Override
+	    public String toString() {
+	        return "Customer{" +
+	                "id=" + id +
+	                ", name='" + name + '\'' +
+	                ", product='" + product + '\'' +
+	                ", price=" + price +
+	                '}';
+	    }
+	}
+
+
+}

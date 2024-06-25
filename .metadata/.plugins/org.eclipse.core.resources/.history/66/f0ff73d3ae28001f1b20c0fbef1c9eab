@@ -1,0 +1,5 @@
+package com.acc.lkm.springcore;
+
+public class AppConfig {
+
+}

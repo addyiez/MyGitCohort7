@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.acc.lkm.Activity.jdbcActivity.java&apos; to &apos;ProcessManagementSystem.java&apos;&#x0D;&#x0A;- Original project: &apos;JDBCActivity&apos;&#x0D;&#x0A;- Original element: &apos;com.acc.lkm.Activity.jdbcActivity.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.acc.lkm.Activity.ProcessManagementSystem.java&apos;" description="Rename compilation unit &apos;jdbcActivity.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.acc.lkm.Activity{jdbcActivity.java" name="ProcessManagementSystem.java" references="false" stamp="1717148090279" version="1.0"/>
+</session>

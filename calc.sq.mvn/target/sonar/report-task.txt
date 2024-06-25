@@ -1,0 +1,6 @@
+projectKey=calc:calc.sq.mvn
+serverUrl=http://localhost:9000
+serverVersion=7.0.0.36138
+dashboardUrl=http://localhost:9000/dashboard/index/calc:calc.sq.mvn
+ceTaskId=AY-msoSP5Yp7XUqaJWCU
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AY-msoSP5Yp7XUqaJWCU

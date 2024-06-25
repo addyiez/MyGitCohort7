@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:context="http://www.springframework.org/schema/context"
+xmlns:mvc="http://www.springframework.org/schema/mvc"
+xmlns:tx="http://www.springframework.org/schema/tx"
+xmlns:aop="http://www.springframework.org/schema/aop"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-3.0.xsd
+http://www.springframework.org/schema/aop 
+http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+http://www.springframework.org/schema/mvc
+http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+
+<!--  <bean id="employee" class="com.acc.lkm.scopeautowiring.Employee" scope="singleton">-->
+<bean id="employee" class="com.acc.lkm.scopeautowiring.Employee" autowire="constructor">
+<!--  
+<property name="Eid"  value="50"></property>
+<property name="name"  value="Abott"></property>
+<property name="salary"  value="130000.00"></property>
+-->
+<constructor-arg>
+<value>65</value>
+</constructor-arg>
+<constructor-arg>
+<value>Morgan</value>
+</constructor-arg>
+<constructor-arg>
+<value>150000.00</value>
+</constructor-arg>
+
+</bean>
+
+<bean id="company" class="com.acc.lkm.scopeautowiring.Company">
+<!--  
+<property name="comp_name" value="Accenture"></property>
+<property name="location" value="Kolkata"></property>
+-->
+<constructor-arg>
+<value>Accenture</value>
+</constructor-arg>
+<constructor-arg>
+<value>KDC-1A</value>
+</constructor-arg>
+</bean>
+
+</beans>

@@ -1,0 +1,11 @@
+
+esquid:UselessImportCheck"+Remove this unused import 'java.util.Date'.(¸…¼üHÒRMINORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÓRINFOZ
+CODE_SMELL
+‰squid:S2737*"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(Ï·¡üÿÿÿÿHÔRMINORZ
+CODE_SMELL
+‹squid:S22937"YReplace the type specification in this constructor call with the diamond operator ("<>").(™’°şÿÿÿÿHÕRMINORZ
+CODE_SMELL
+‰squid:S2737K"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(Ï·¡üÿÿÿÿHÖRMINORZ
+CODE_SMELL

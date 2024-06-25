@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-1.8.0-openjdk-1.8.0.362">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/javax.servlet-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-aop-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-aop-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-aop-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-aspects-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-aspects-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-aspects-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-beans-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-beans-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-beans-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-context-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-context-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-context-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-context-support-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-context-support-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-context-support-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-core-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-core-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-core-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-expression-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-expression-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-expression-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-instrument-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-instrument-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-instrument-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-instrument-tomcat-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-instrument-tomcat-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-instrument-tomcat-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-web-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-web-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-web-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-webmvc-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-webmvc-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-webmvc-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-webmvc-portlet-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-webmvc-portlet-4.2.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Training1/Desktop/New folder/Spring Web MVC Jars/spring-webmvc-portlet-4.2.4.RELEASE-sources.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

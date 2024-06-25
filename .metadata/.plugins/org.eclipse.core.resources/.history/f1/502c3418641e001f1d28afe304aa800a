@@ -1,0 +1,41 @@
+package com.acc.lkm.activity1Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Test;
+
+import com.acc.lkm.activity1.Employee;
+
+//EmployeeTest.java
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+public class EmployeeTest {
+ private Employee employee;
+
+ @BeforeEach
+ public void setUp() {
+     employee = new Employee("John Doe", 30, 50000.0);
+ }
+
+ @Test
+ public void testValidEmployeeCreation() {
+     assertNotNull(employee);
+     assertEquals("John Doe", employee.getName());
+     assertEquals(30, employee.getAge());
+     assertEquals(50000.0, employee.getSalary(), 0.01);
+ }
+
+ @Test
+ public void testEmployeeIsNull() {
+     employee = null;
+     assertNull(employee);
+ }
+ 
+ @AfterEach
+ public void tearDown() {
+     employee = null; // Reset employee to null after each test
+ }
+}

@@ -1,0 +1,57 @@
+package com.accenture.MavenActivity;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class App {
+    public static void main(String[] args) {
+        SportsTeamManager teamManager = new SportsTeamManager();
+
+        // Adding players
+        teamManager.addPlayer("Player1");
+        teamManager.addPlayer("Player2");
+        teamManager.addPlayer("Player3");
+
+        // Displaying players
+        System.out.println("Initial players in the team:");
+        teamManager.displayPlayers();
+
+        // Checking if a player is in the team
+        System.out.println("Is Player1 in the team? " + teamManager.isPlayerInTeam("Player1"));
+        System.out.println("Is Player4 in the team? " + teamManager.isPlayerInTeam("Player4"));
+
+        // Removing a player
+        teamManager.removePlayer("Player2");
+
+        // Displaying players after removing one
+        System.out.println("\nPlayers in the team after removing Player2:");
+        teamManager.displayPlayers();
+    }
+}
+
+class SportsTeamManager {
+    private Set<String> players;
+
+    public SportsTeamManager() {
+        this.players = new HashSet<>();
+    }
+
+    public void addPlayer(String playerName) {
+        players.add(playerName);
+    }
+
+    public void removePlayer(String playerName) {
+        players.remove(playerName);
+    }
+
+    public boolean isPlayerInTeam(String playerName) {
+        return players.contains(playerName);
+    }
+
+    public void displayPlayers() {
+        System.out.println("Players in the team:");
+        for (String player : players) {
+            System.out.println(player);
+        }
+    }
+}

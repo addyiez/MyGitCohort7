@@ -1,0 +1,9 @@
+CREATE DATABASE jpademos;
+
+USE jpademos;
+
+CREATE TABLE Customer(
+customerId INTEGER PRIMARY KEY AUTO_INCREMENT,
+customerName VARCHAR(20),
+purchaseDate DATE,
+bill DOUBLE(10,2));

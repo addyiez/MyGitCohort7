@@ -1,0 +1,63 @@
+Manifest-Version: 1.0
+Created-By: 11.0.2 (Oracle Corporation)
+
+Name: content.xml.xz
+SHA-256-Digest: rpuoAA4qSPo5tN6Fs2/8ral+6vSH8sR2iMCU4fKV72M=
+
+Name: plugins/org.sonarlint.eclipse.core_4.2.0.201909192007.jar
+SHA-256-Digest: h7BtLNU3V/xvwQZ+t8+7wCNXQu6zVOUf69DBitZVEb0=
+
+Name: plugins/org.sonarlint.eclipse.m2e_4.2.0.201909192007.jar
+SHA-256-Digest: Ubt6UU+lekn8ZEfIEzpxrbY9UuDEivXeTh+wTbFYOJM=
+
+Name: plugins/org.sonarlint.eclipse.cdt.source_4.2.0.201909192007.jar
+SHA-256-Digest: vrKiRVFcoKepLd758334NN47YH5RyNlvc73tpYQY+xg=
+
+Name: plugins/org.sonarlint.eclipse.ui.source_4.2.0.201909192007.jar
+SHA-256-Digest: zddMN7hyzCuLurmLtl3UBLszCZExyRpsUgLGvtMO8yI=
+
+Name: artifacts.xml.xz
+SHA-256-Digest: L3l56n8QxnsUl/kXbsIHrv1KzhZyj6UAO6Jb/XCPHBY=
+
+Name: plugins/org.sonarsource.sonarlint.core.sonarlint-core_4.5.0.2626.j
+ ar
+SHA-256-Digest: qjFEMLs5T04aCrVCFUO2ZWGk0mj2nFCgAaX/3MFoQlU=
+
+Name: plugins/org.sonarsource.sonarlint.core.sonarlint-client-api_4.5.0.
+ 2626.jar
+SHA-256-Digest: 6wS01KswYdA/WlhISPpmdLddoZxhU+rKNjp263fKiVI=
+
+Name: plugins/org.sonarlint.eclipse.core.source_4.2.0.201909192007.jar
+SHA-256-Digest: HtI1Y4UIMOXonQZyGdSSJHqAiA5lsqSC8Cebqd9F7D8=
+
+Name: p2.index
+SHA-256-Digest: apnPD7tX7RAgrm+r5EcVcVXRVDfIB5hSV6Yi3QYAxZw=
+
+Name: artifacts.jar
+SHA-256-Digest: M9PJmfCSwb9Q4HosewKP0lFLT8EudLrECxwaCK7h7gU=
+
+Name: plugins/org.sonarlint.eclipse.ui_4.2.0.201909192007.jar
+SHA-256-Digest: WYCsOp7njmoPVXMsvIycVJT48XYqXbqNQD39BZWyQ3Q=
+
+Name: plugins/org.sonarlint.eclipse.jdt_4.2.0.201909192007.jar
+SHA-256-Digest: Lc4HUpjb8LcGKqpXyjnUnTufpTSXK/tXR1vtJCgMujo=
+
+Name: features/org.sonarlint.eclipse.feature.source_4.2.0.201909192007.j
+ ar
+SHA-256-Digest: vNFqDx5IRUXsblvVSRXDPz8hUVHPwR5R8A2lwZ4qGy4=
+
+Name: content.jar
+SHA-256-Digest: GHkh5m3D8Fzx3Cz6ENTfnpc4J3jaannEI1u9R6Eawyw=
+
+Name: plugins/org.sonarlint.eclipse.cdt_4.2.0.201909192007.jar
+SHA-256-Digest: ea8dbdoKchI0OSutk0FaLg5f0ZodKqrLKWYuvDy7+dc=
+
+Name: plugins/org.sonarlint.eclipse.m2e.source_4.2.0.201909192007.jar
+SHA-256-Digest: dGY9nVct99kGWMG1y287HCIN7Vtzdy/51giEm3TRZyI=
+
+Name: features/org.sonarlint.eclipse.feature_4.2.0.201909192007.jar
+SHA-256-Digest: GmqrnOMCzxMqOzd5BXgdMP072Qd0U2RC8kgPpGiI1ew=
+
+Name: plugins/org.sonarlint.eclipse.jdt.source_4.2.0.201909192007.jar
+SHA-256-Digest: kazez0y1/HA/SnGJGURv0GFn+dVLIknnntQwwXlCOIQ=
+

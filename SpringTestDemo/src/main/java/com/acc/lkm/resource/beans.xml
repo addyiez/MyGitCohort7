@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:context="http://www.springframework.org/schema/context"
+xmlns:mvc="http://www.springframework.org/schema/mvc"
+xmlns:tx="http://www.springframework.org/schema/tx"
+xmlns:aop="http://www.springframework.org/schema/aop"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-3.0.xsd
+http://www.springframework.org/schema/aop 
+http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+http://www.springframework.org/schema/mvc
+http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+
+<bean id="employee" class="com.acc.lkm.springinjectiontest.Employee">
+<!-- Setter Injection where dependent bean can be injected -->
+ 
+<property name="eid" value="50"></property>
+<property name="name" value="Raman"></property>
+<property name="address" value="Chennai"></property>
+<property name="project" ref="project"></property>
+
+<!-- Constructor injection -->
+<!--  
+<constructor-arg value="130" type="Integer"></constructor-arg>
+<constructor-arg value="Aravind" type="String"></constructor-arg>
+<constructor-arg value="Pune" type="String"></constructor-arg>
+-->
+</bean>
+<bean id="project" class="com.acc.lkm.springinjectiontest.Project">
+ 
+<property name="pid" value="13"></property>
+<property name="name" value="Azure"></property>
+
+<!-- Constructor Injection -->
+<!--  
+<constructor-arg value="60" type="Integer"></constructor-arg>
+<constructor-arg value="Java" type="String"></constructor-arg>
+-->
+</bean>
+
+</beans>
